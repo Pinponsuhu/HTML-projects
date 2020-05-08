@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Guessing game</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      
+   
+    <h1 class="intro">Guessing game</h1>
+    <p class="lbl">Enter a number</p>
+    <input type="number" name="input-value" id="input-value" value="" placeholder="Range 0-10"/>
+    <p class="err" id="err">No inputted value</p>
+    <p class="err1" id="err1">Number greater than 10</p>
+    <button type="submit" id="sbmt" onclick="guess()">Submit</button>
+     </div>
+     <div id="correct">
+       <h4 class="cort-text" id="cText">You guessed Right</h4>
+       <h4 class="cort-text" id="cText1"></h4>
+       <button type="submit" id="Ok" onclick="OK()">OK</button>
+     </div>
+  </body>
+</html>
